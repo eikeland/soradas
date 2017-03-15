@@ -2,25 +2,6 @@
 
 <?php require("includes/header.php"); ?>
 
-<div id="wrapper">
-
-
-
-<div id="menu">
-<ul>
-<li><a href="index.php">Hjem</a></li>
-<li><a href="meny.php">Meny</a></li>
-<li><a href="nytt.php">Nytt</a></li>
-<li><a class="current" href="kontakt.php">Kontakt</a></li>
-</ul>
-</div>
-
-<div id="header">
-<div id="bar"></div>
-<img src="media/logo_orig_top.png" alt="logo" />
-<img src="media/logo_orig_bott.png" alt="logo" />
-</div><!-- End header -->
-
 <div class="cont">
 <h1>Kontakt Sorada's</h1>
 <p>Du kan bestille mat slik at den er klar når du kommer. Alt du trenger å gjøre er og velge en rett i <a href="meny.php" title="finn en rett i menyen">menyen,</a>
@@ -35,7 +16,7 @@
 </tr>
 <tr>
 <td>Lørdag - Søndag</td>
-<td>13:00 - 20:00</td>
+<td>14:00 - 20:00</td>
 </tr>
 </table>
 

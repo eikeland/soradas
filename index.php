@@ -2,23 +2,6 @@
 
 <?php require("includes/header.php"); ?>
 
-<div id="wrapper">
-
-<div id="menu">
-<ul>
-<li><a class="current" href="index.php">Hjem</a></li>
-<li><a href="meny.php">Meny</a></li>
-<li><a href="nytt.php">Nytt</a></li>
-<li><a href="kontakt.php">Kontakt</a></li>
-</ul>
-</div>
-
-<div id="header">
-<div id="bar"></div>
-<img src="media/logo_orig_top.png" alt="logo" />
-<img src="media/logo_orig_bott.png" alt="logo" />
-</div><!-- End header -->
-
 <div id="content">
 <div class="box">
 <h2>Sorada's</h2>

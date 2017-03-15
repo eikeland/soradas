@@ -21,10 +21,36 @@ window.onload = function(){
 	height = window.innerHeight;
 	bg.style.width = width + "px";
 	bg.style.height = height + "px";
-}
+};
 </script>
 <title>Sorada's Thai Take Away</title>
 </head>
 
 <body>
-<div id="bg"><img src="media/ris_bg.jpg" alt="back ground" /></div>
+	<div id="bg"><img src="media/ris_bg.jpg" alt="back ground" /></div>
+
+
+	<div id="wrapper">
+
+		<div id="menu">
+			<ul>
+				<?php  
+					$pages = array(
+						array("name" => "Hjem", "slug" => 'index.php', "active" => $site === "index.php" ? 'current' : ''), 
+						array("name" => "Meny", "slug" => 'meny.php', "active" => $site === "meny.php" ? 'current' : ''), 
+						array("name" => "Nytt", "slug" => 'nytt.php', "active" => $site === "nytt.php" ? 'current' : ''), 
+						array("name" => "Kontakt", "slug" => 'kontakt.php', "active" => $site === "kontakt.php" ? 'current' : '')
+					);
+					// dislapy meny items
+					foreach ($pages as $page) {
+						echo sprintf('<li><a class="%s" href="%s">%s</a></li>', $page['active'], $page['slug'], $page['name'] );
+					}
+				?>
+			</ul>
+		</div>
+
+		<div id="header">
+			<div id="bar"></div>
+			<img src="media/logo_orig_top.png" alt="logo" />
+			<img src="media/logo_orig_bott.png" alt="logo" />
+		</div><!-- End header -->
